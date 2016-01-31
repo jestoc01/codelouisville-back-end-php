@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 30, 2016 at 03:13 PM
+-- Generation Time: Feb 01, 2016 at 12:26 AM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `administrators` (
 --
 
 INSERT INTO `administrators` (`adminid`, `emailaddress`, `password`, `firstname`, `lastname`) VALUES
-(1, 'test@gms.com', '47b6b1608ed8d1f9c15680c56f9bb09edf3ac208 ', 'Ronald', 'McDonald');
+(1, 'jes@twc.com', '$2y$10$WkBfezO7rbnf0rzjFMZ3..yPgJqpZTFo0g.2ZMzF8QiK.ZKqcaJWm', 'Ronald', 'McDonald');
 
 -- --------------------------------------------------------
 
