@@ -1,0 +1,38 @@
+body {
+	font: 90% Arial, Helvetica, sans-serif;
+	margin: 20px;}
+label {
+	color: navy;
+	float: left;
+    	width: 12em;
+	font-weight: bold;
+    	text-align: right;}
+select {
+    margin-left: 1em;
+    margin-bottom .5em;}
+input {
+    width: 15em;
+    margin-left: 1em;
+    margin-bottom .5em;}
+input:focus{
+	border: 2px solid navy;}
+#button, #reset{
+	width: 7em;
+	box-shadow: 2px 2px 0 navy;
+	background-color: silver;}
+#button{
+    margin-left: 8em;}
+h1{
+ margin-left: 5em;}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;}
+th, td {
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: right;}
+th.left, td.left{text-align: left;}
+thead, tfoot{background-color: #ccc;}
+tfoot {font-weight: bold;}
+
