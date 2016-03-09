@@ -14,7 +14,7 @@ function add_admin($email, $password) {
 
 function is_valid_admin_login($email, $password) {
     global $db;
-    $password = sha1($email . $password);
+    $password = sha1($password);
     $query = 'SELECT adminID FROM administrators
               WHERE emailAddress = :email AND password = :password';
     $statement = $db->prepare($query);

@@ -16,6 +16,7 @@ require_once('utilities/valid_admin.php');
 		<!-- GMS stylesheet -->
 		<link rel= "stylesheet" href="css/main1.css"> 
 		<link rel= "stylesheet" href="css/responsive.css">
+        <!--<link rel = "stylesheet" href = css/forms.css> -->
 		<!--jQuery library -->
 		<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 		<!-- jQuery UI library -->

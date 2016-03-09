@@ -31,7 +31,7 @@ table{
 th, td {
     border: 1px solid black;
     padding: .2em .7em;
-    text-align: right;}
+    text-align: left;}
 th.left, td.left{text-align: left;}
 thead, tfoot{background-color: #ccc;}
 tfoot {font-weight: bold;}

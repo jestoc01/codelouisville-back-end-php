@@ -4,7 +4,10 @@
 //require_once('utilities/valid_admin.php');
 $pageTitle = "Solution";
 include("includes/header.php");
-?> 
+?>
+	&gt; <a href = "index.php?action=login"> login</a> &gt; <a href = "index.php?action=show_admin_menu"> overview</a> &gt; solution
+
+<br>
                
 		<div id = "wrapper">
 		<section>  
@@ -28,9 +31,9 @@ include("includes/header.php");
 					</a>
 				</li>
 				<li>
-					<a href ="index.php?action=show_audit_page">
-						<img src = "img/iPad2.jpg" alt = " ">
-						<p>Healthcare team audits the patient's use.</p>
+                    <a href ="index.php?action=show_summary_page">
+				    <img src = "img/iPad2.jpg" alt = " ">
+					<p>Healthcare team audits the patient's use.</p>
 					</a>
 				</li>
 				
@@ -42,9 +45,9 @@ include("includes/header.php");
 				</li>
 				
 				<li>
-					<a href ="index.php?action=show_summary_page">
-						<img src = "img/Counseling.jpg" alt = " ">
-						<p>Ready access to results assist in timely assessment, planning, and counseling with patient	.</p>
+                    <a href ="index.php?action=show_visit_page">
+				    <img src = "img/Counseling.jpg" alt = " ">
+				    <p>Ready access to results assist in timely assessment, planning, and counseling with patient	.</p>
 					</a>
 				</li>
 			</ul>

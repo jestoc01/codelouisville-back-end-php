@@ -2,14 +2,16 @@
 $pageTitle = "Guardian Medication Solutions|Challenges";
 include ("includes/header.php");
 ?>
-           
-		<div id = "wrapper">
-		<section>  
-			<img src= "img/Drugs.jpg" alt= "Abused Drugs">
+	&gt; <a href = "index.php?action=login"> login</a> &gt; <a href = "index.php?action=show_admin_menu"> overview</a> &gt; problem
+<br>
+		<div  id = "wrapper">
+		<section>
 			<div id = "centralheading">
+			<img height = "300" src= "img/Drugs.jpg" alt= "Abused Drugs">
+
 			<h3> Addiction and Pain </h3>
 			</div>
-			<p> The treatment of pain and addiction are two of today's greatest healthcare needs. Guardian Medication Systems is dedicated to facilitating appropriate addiction therapy and pain medication use while preventing diversion, misuse, and abuse. </p>
+			<p style="padding-left:3%; padding-right:3%"> The treatment of pain and addiction are two of our greatest healthcare needs. Guardian Medication Systems is dedicated to facilitating appropriate addiction therapy and pain medication use while preventing diversion, misuse, and abuse. </p>
 		</section>
 		<div id="accordion">
 		<h3><a href="#">How many people suffer from chronic pain?</a></h3>
